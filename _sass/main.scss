@@ -172,9 +172,19 @@ div.title-compare {
 
 // NAVBAR
 
+.nav>li>a {
+    padding: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
 .navbar {
     text-transform: uppercase;
     background: #3B4766;
+}
+
+.navbar {
+    min-height: 47px;
 }
 
 .navbar a:focus {
@@ -187,6 +197,11 @@ div.title-compare {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+
+.navbar-brand {
+    height: 47px;
+    padding: 12px 15px;
 }
 
 .nav-tabs>li>a {
@@ -234,9 +249,6 @@ div.title-compare {
     background-color: #273250;
 }
 
-.nav>li>a {
-    padding: 15px;
-}
 
 .navbar-default,
 .navbar-inverse {
