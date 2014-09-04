@@ -170,12 +170,11 @@ div.title-compare {
     font-size: 13px;
 }
 
+// NAVBAR
+
 .navbar {
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-  background: #000;
-    height: 67px;
+    background: #3B4766;
 }
 
 .navbar a:focus {
@@ -190,9 +189,62 @@ div.title-compare {
     outline: 0;
 }
 
+.nav-tabs>li>a {
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid #2F3953;
+    border-right: 1px solid #2F3953;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #292947;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: #273250;
+    border-color: #292947;
+}
+
+.dropdown-menu {
+    background-color: #273250;
+}
+
+.dropdown-menu>li>a {
+    color: #FFF;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #1D2949;
+    background-image: -webkit-linear-gradient(top,#1F2542 0,#1D2949 100%);
+    background-image: -o-linear-gradient(top,#1F2542 0,#1D2949 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#1F2542),to(#1D2949));
+    background-image: linear-gradient(to bottom,#1F2542 0,#1D2949 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1F2542', endColorstr='#ff1D2949', GradientType=0);
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #273250;
+}
+
+.nav>li>a {
+    padding: 15px;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+ul.nav.nav-tabs {
+    float: right;
 }
 
 section {
@@ -345,20 +397,6 @@ ul#social a:hover {
 
     header .intro-text .skills {
         font-size: 1.75em;
-    }
-
-    .navbar-fixed-top {
-        padding: 10px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
