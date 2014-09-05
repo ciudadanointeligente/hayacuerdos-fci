@@ -101,6 +101,30 @@ function showInfo(data, tabletop) {
           title_compare.append('Educación 2020');
         }
         break;
+      case 'gobierno-cep' :
+        name = 'Gobierno - CEP';
+        if( sheet.name == sheet_page ) {
+          active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('CEP');
+        }
+        break;
+      case 'gobierno-pro' :
+        name = 'Gobierno - PRO';
+        if( sheet.name == sheet_page ) {
+          active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('PRO');
+        }
+        break;
+      case 'gobierno-fuerzapublica' :
+        name = 'Gobierno - Fuerza Pública';
+        if( sheet.name == sheet_page ) {
+          active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Fuerza Pública');
+        }
+        break;
     }
 
     list.append('<option value="'+sheet.name+'" '+active+'>'+name+'</option>');
