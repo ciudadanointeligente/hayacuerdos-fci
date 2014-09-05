@@ -33,7 +33,10 @@ function showInfo(data, tabletop) {
   var allPositions = $(".allPositions");
 
   var list = $('<select name="" id="lol"></select>');
-  var sheet_page = 'gobierno-fech';
+  if ( $(".sheet_page").length ) 
+    var sheet_page = $(".sheet_page").data('sheet');
+  else
+    var sheet_page = 'gobierno-fech';
 
   if( url.search.length )
     sheet_page = url.search.split('=')[1];
