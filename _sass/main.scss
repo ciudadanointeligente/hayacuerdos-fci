@@ -118,7 +118,19 @@ header .intro-text .skills {
 .jumbotron {
     padding: 60px 0;
     color: #fff;
+    background-size: 100%;
+    text-align: center;
+    min-height: 400px;
+}
+
+.jumbo-educacion {
     background: url(../img/portada1.png) no-repeat;
+}
+
+.jumbo-binominal {
+    padding: 60px 0;
+    color: #fff;
+    background: url(../img/portada-binominal.jpg) no-repeat;
     background-size: 100%;
     text-align: center;
 }

@@ -36,7 +36,7 @@ function showInfo(data, tabletop) {
   if ( $(".sheet_page").length ) 
     var sheet_page = $(".sheet_page").data('sheet');
   else
-    var sheet_page = 'gobierno-fech';
+    var sheet_page = 'hoja1';
 
   if( url.search.length )
     sheet_page = url.search.split('=')[1];

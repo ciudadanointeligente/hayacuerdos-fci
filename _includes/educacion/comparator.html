@@ -18,14 +18,14 @@
   </div>
 </div>
 
-
+<div class="sheet_page" data-sheet="{{ site.gsheeteducacion-sheetpage }}"></div>
 <div class="allPositions"></div>
 
 <script type="text/javascript">
   var url_share = '{{ site.url }}';
   window.onload = function() { init() };
 
-  var public_spreadsheet_url = "{{ site.gsheet }}";
+  var public_spreadsheet_url = "{{ site.gsheeteducacion }}";
 
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
