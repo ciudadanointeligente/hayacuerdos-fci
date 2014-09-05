@@ -25,12 +25,12 @@
   var url_share = '{{ site.url }}';
   window.onload = function() { init() };
 
-  var public_spreadsheet_url = "{{ site.gsheet-binominal }}";
+  var public_spreadsheet_url = "{{ site.gsheetbinominal }}";
 
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: showInfo,
-                     wanted: ['gobierno-oposicion'],
+                     wanted: ['gobierno-evopoli', 'gobierno-rnlibertad', 'gobierno-cep', 'gobierno-udi', 'gobierno-pro', 'gobierno-fuerzapublica'],
                      simpleSheet: true } )
   }
 </script>
