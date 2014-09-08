@@ -48,6 +48,18 @@ function showInfo(data, tabletop) {
   $.each(tabletop.sheets(), function(i, sheet){
     var name = '', active = '';
     switch( sheet.name ) {
+      // Example
+      case 'government-oposition' :
+        name = 'Government - Oposition';
+        if( sheet.name == sheet_page ) 
+          active = 'selected="selected"';
+        break;
+      case 'government-students' :
+        name = 'Government - Students';
+        if( sheet.name == sheet_page ) 
+          active = 'selected="selected"';
+        break;
+      // End example
       case 'gobierno-fech' :
         name = 'Gobierno - FECH';
         if( sheet.name == sheet_page ) 

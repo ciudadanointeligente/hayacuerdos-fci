@@ -6,6 +6,11 @@ baseurl: http://hayacuerdo.ciudadanointeligente.org/
 basedomain: hayacuerdo.ciudadanointeligente.org
 analytics: "UA-41822715-4"
 
+# example
+gsheetexampleurl: "https://docs.google.com/spreadsheets/d/1V2gqtFl7rvZOv9Hbd4f5_3Z45OsyqVyht7FxE5EtiK8/pubhtml"
+# first page to load
+gsheetexample-sheetpage: "government-oposition"
+
 # educacion
 gsheeteducacion: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
 # first page to load
@@ -15,6 +20,7 @@ gsheeteducacion-sheetpage: "gobierno-fech"
 gsheetbinominal: "https://docs.google.com/spreadsheets/d/1dxarZUl5bsHAe-DhGIC6ox5_JD6oVvqmkNrOObrz3Rw/pubhtml"
 # first page to load
 gsheetbinominal-sheetpage: "gobierno-evopoli"
+
 
 # twitter
 twitter:
