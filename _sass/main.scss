@@ -109,6 +109,28 @@ header .intro-text .skills {
     font-weight: 400;
 }
 
+.description{
+    margin:50px 0;
+    line-height:26px;
+    font-size:18px;
+}
+
+.versus{
+    text-align:center;
+}
+
+#listado{
+    text-align:center;
+    margin:20px 0;
+}
+
+.loader {
+    background:url(../img/loading.gif);
+    height:50px;
+    width:50px;
+    margin:0 auto;
+}
+
 .jumbotron {
     padding: 60px 0;
     color: #fff;
@@ -118,15 +140,12 @@ header .intro-text .skills {
 }
 
 .jumbo-educacion {
-    background: url(../img/portada1.png) no-repeat;
+    background: url(../img/portada2.jpg) no-repeat;
 }
 
 .jumbo-binominal {
-    padding: 60px 0;
-    color: #fff;
     background: url(../img/portada-binominal.jpg) no-repeat;
-    background-size: 100%;
-    text-align: center;
+  
 }
 
 .jumbotron h1, .jumbotron .h1 {
@@ -134,7 +153,7 @@ header .intro-text .skills {
 }
 
 .jumbotron p {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -143,6 +162,9 @@ div.title-compare {
 }
 
 @media screen and (max-width: 768px) {
+    .jumbotron .container{
+        margin:100px 0;
+    }
     .jumbotron p {
         font-size: 16px;
     }
