@@ -457,6 +457,29 @@ ul#social a:hover {
     }
 }
 
+// BANNER
+
+.banner-qtf {
+    background: #000;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 0 16px;
+}
+
+.banner-qtf h3 {
+    color: #EF4036;
+    font-size: 68px;
+}
+
+.banner-qtf h4 {
+    color: #fff;
+    font-size: 44px;
+}
+
+a.banner-qtf {
+    text-decoration: none;
+}
+
 // REDES
 
 .fb-share-button.fb_iframe_widget {
