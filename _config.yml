@@ -21,6 +21,11 @@ gsheetbinominal: "https://docs.google.com/spreadsheets/d/1dxarZUl5bsHAe-DhGIC6ox
 # first page to load
 gsheetbinominal-sheetpage: "gobierno-evopoli"
 
+# dineroypolitica
+gsheetdineroypolitica: "https://docs.google.com/spreadsheets/d/17Lxec6xDeT9Nxm432Tk7mUFgRMF2xYWJesx87x7y4yQ/pubhtml"
+# first page to load
+gsheetdineroypolitica-sheetpage: "gobierno-fci"
+
 
 # twitter
 twitter:
