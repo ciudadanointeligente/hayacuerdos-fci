@@ -521,3 +521,22 @@ input, button, select, textarea {
     display: block!important;
   }
 }
+
+/*DINERO Y POLITICA*/
+
+.jumbo-dineroypolitica {
+    background: url(../img/maletin.png) no-repeat 50% 30px #000;
+    color: #EF4036;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    padding: 150px 0 60px;
+}
+
+.jumbo-dineroypolitica p {
+    color: #EF4036;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.jumbo-dineroypolitica h1 {
+    margin-bottom: 50px;
+}
