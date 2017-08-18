@@ -1,10 +1,15 @@
 # site settings
-title: ¿Hay Acuerdo?
-email: prensa@ciudadanointeligente.org
+title: Tem acordo
+email: contato@cidadaniainteligente.org
 description: La Reforma al Financiamiento de la Política es clave para el fortalecimiento de las confianzas entre los ciudadanos y sus autoridades o representantes. Los ciudadanos abogamos por una reforma y el Gobierno envió su Proyecto de Ley... pero Hay Acuerdo?
-baseurl: http://hayacuerdo.ciudadanointeligente.org/
-basedomain: hayacuerdo.ciudadanointeligente.org
+baseurl: http://temacordo.cidadaniainteligente.org/
+basedomain: temacordo.cidadaniainteligente.org 
 analytics: "UA-41822715-4"
+
+# Governança
+gsheetgovernance: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
+# first page to load
+gsheetgovernance-sheetpage: "governance"
 
 # example
 gsheetexampleurl: "https://docs.google.com/spreadsheets/d/1V2gqtFl7rvZOv9Hbd4f5_3Z45OsyqVyht7FxE5EtiK8/pubhtml"

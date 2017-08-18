@@ -59,6 +59,11 @@ function showInfo(data, tabletop) {
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
+      case 'governance' :
+        name = 'Governança';
+        if( sheet.name == sheet_page )
+          active = 'selected="selected"';
+        break;
       // End example
       case 'gobierno-fech' :
         name = 'Gobierno - FECH';
